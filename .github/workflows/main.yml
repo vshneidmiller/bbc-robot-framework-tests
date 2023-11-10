@@ -15,8 +15,11 @@ jobs:
       with:
         python-version: '3.x'
 
-    - name: Install Robot Framework
-      run: pip install robotframework
+    - name: Install Robot Framework and Dependencies
+      run: |
+        pip install robotframework
+        pip install robotframework-seleniumlibrary
+        pip install robotframework-requests
 
     - name: Run Robot Framework Tests
       run: robot /home/runner/work/bbc-robot-framework-tests/bbc-robot-framework-tests/robot/tests/
