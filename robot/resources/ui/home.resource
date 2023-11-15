@@ -9,6 +9,7 @@ ${MENU_ITEMS}       (//*[@data-testid='header-content']//ul)[3]//li/a/span
 
 *** Keywords ***
 Verify Menu Items
+    [Tags]    smoke
     [Arguments]    @{expected_menu_items}
     @{menu_items}    Get WebElements    ${MENU_ITEMS}
 

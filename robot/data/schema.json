@@ -1,0 +1,279 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "object",
+    "properties": {
+      "accessTokenUrl": {
+        "type": "string"
+      },
+      "announce_url": {
+        "type": "string"
+      },
+      "bbcid-v5": {
+        "type": "string"
+      },
+      "child_parent_linking_url": {
+        "type": "string"
+      },
+      "id-availability": {
+        "type": "string"
+      },
+      "account-maintenance-mode": {
+        "type": "string"
+      },
+      "foryou-access-chance": {
+        "type": "string"
+      },
+      "foryou-flagpole": {
+        "type": "string"
+      },
+      "identity": {
+        "type": "object",
+        "properties": {
+          "accessTokenCookieName": {
+            "type": "string"
+          },
+          "cookieAgeDays": {
+            "type": "number"
+          },
+          "idSignedInCookieName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "accessTokenCookieName",
+          "cookieAgeDays",
+          "idSignedInCookieName"
+        ]
+      },
+      "identityTokenExchangeUrl": {
+        "type": "string"
+      },
+      "nma": {
+        "type": "object",
+        "properties": {
+          "refresh_url": {
+            "type": "string"
+          },
+          "register_url": {
+            "type": "string"
+          },
+          "signin_url": {
+            "type": "string"
+          },
+          "signout_url": {
+            "type": "string"
+          },
+          "user_details_url": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "refresh_url",
+          "register_url",
+          "signin_url",
+          "signout_url",
+          "user_details_url"
+        ]
+      },
+      "experiments": {
+        "type": "object",
+        "properties": {
+          "usi": {
+            "type": "string"
+          },
+          "usiApiName": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "usi",
+          "usiApiName"
+        ]
+      },
+      "federated": {
+        "type": "object",
+        "properties": {
+          "authoriseUrl": {
+            "type": "string"
+          },
+          "callbackUrl": {
+            "type": "string"
+          },
+          "signInUrl": {
+            "type": "string"
+          },
+          "registerUrl": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "authoriseUrl",
+          "callbackUrl",
+          "signInUrl",
+          "registerUrl"
+        ]
+      },
+      "features": {
+        "type": "object",
+        "properties": {
+          "showUsiModal": {
+            "type": "boolean"
+          },
+          "clientAnalytics": {
+            "type": "boolean"
+          },
+          "webCoreUsiModal": {
+            "type": "boolean"
+          },
+          "removeJsTruncation": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "showUsiModal",
+          "clientAnalytics",
+          "webCoreUsiModal",
+          "removeJsTruncation"
+        ]
+      },
+      "forYouAllowlist": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "privacy_settings_url": {
+        "type": "string"
+      },
+      "profiles": {
+        "type": "object",
+        "properties": {
+          "list": {
+            "type": "string"
+          },
+          "create": {
+            "type": "string"
+          },
+          "picker": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "list",
+          "create",
+          "picker"
+        ]
+      },
+      "register_url": {
+        "type": "string"
+      },
+      "settings_url": {
+        "type": "string"
+      },
+      "signin_url": {
+        "type": "string"
+      },
+      "signout_url": {
+        "type": "string"
+      },
+      "status_url": {
+        "type": "string"
+      },
+      "foryou_url": {
+        "type": "string"
+      },
+      "tokenImprovement": {
+        "type": "string"
+      },
+      "tokenRefresh": {
+        "type": "boolean"
+      },
+      "tokenRefresh_signout_url": {
+        "type": "string"
+      },
+      "tokenRefresh_url": {
+        "type": "string"
+      },
+      "tokenUrl": {
+        "type": "string"
+      },
+      "usiDestinationWhitelist": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "translations": {
+        "type": "object",
+        "properties": {
+          "statusbarSignedIn": {
+            "type": "string"
+          },
+          "statusbarSignedOut": {
+            "type": "string"
+          },
+          "statusbarForYou": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "statusbarSignedIn",
+          "statusbarSignedOut",
+          "statusbarForYou"
+        ]
+      },
+      "unavailable_url": {
+        "type": "string"
+      },
+      "web": {
+        "type": "object",
+        "properties": {
+          "callbackUrl": {
+            "type": "string"
+          },
+          "credentialsUrl": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "callbackUrl",
+          "credentialsUrl"
+        ]
+      }
+    },
+    "required": [
+      "accessTokenUrl",
+      "announce_url",
+      "bbcid-v5",
+      "child_parent_linking_url",
+      "id-availability",
+      "account-maintenance-mode",
+      "foryou-access-chance",
+      "foryou-flagpole",
+      "identity",
+      "identityTokenExchangeUrl",
+      "nma",
+      "experiments",
+      "federated",
+      "features",
+      "forYouAllowlist",
+      "privacy_settings_url",
+      "profiles",
+      "register_url",
+      "settings_url",
+      "signin_url",
+      "signout_url",
+      "status_url",
+      "foryou_url",
+      "tokenImprovement",
+      "tokenRefresh",
+      "tokenRefresh_signout_url",
+      "tokenRefresh_url",
+      "tokenUrl",
+      "usiDestinationWhitelist",
+      "translations",
+      "unavailable_url",
+      "web"
+    ]
+  }

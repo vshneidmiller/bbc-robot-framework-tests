@@ -15,3 +15,7 @@ Create Headers and Session
 Get User Info
     ${resp}    GET On Session    alias=${SESSION_ALIAS}    url=${BASE_URL}/userinfo
     ${Resp}    Set Test Variable    ${resp}
+
+Get Idcta Config
+    ${resp}    GET On Session    alias=${SESSION_ALIAS}    url=https://idcta.api.bbc.co.uk/idcta/config
+    ${Resp}    Set Test Variable    ${resp}
