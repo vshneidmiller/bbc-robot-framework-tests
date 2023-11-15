@@ -1,5 +1,3 @@
-# bbc-robot-framework-tests
-
 # BBC Robot Framework Tests
 
 This repository contains example tests for both UI and API components using the Robot Framework. The purpose of this README is to provide an overview of the contents and guide on how to execute the tests.
